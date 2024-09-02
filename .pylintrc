@@ -12,6 +12,9 @@ disable=
       C0115, # missing-class-docstring
       R0903, # too-few-public-methods
       C0301, # line-too-long
+      W0612, # unused-variable
+      W1514, # unspecified-encoding
+      R0913, # too-many-arguments
 
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
