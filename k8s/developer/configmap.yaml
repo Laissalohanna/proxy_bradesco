@@ -1,9 +1,0 @@
-bradesco_url:
-  base_url: https://proxy.api.prebanco.com.br
-  auth_url: /auth/server/v1.1/token
-  balance_url: /v1/contas/fornecimento/saldos
-  extract_url: /v1/contas/fornecimento/extratos
-
-certificates_path:
-  public: /home/laissa.souza/Desktop/proxy_bradesco_refactor/certificates/public_certificate.pem
-  private: /home/laissa.souza/Desktop/proxy_bradesco_refactor/certificates/private_certificate.com.key.pem
