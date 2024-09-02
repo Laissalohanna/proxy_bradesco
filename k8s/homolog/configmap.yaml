@@ -1,0 +1,5 @@
+bradesco_url:
+  base_url: https://proxy.api.prebanco.com.br
+  auth_url: /auth/server/v1.1/token
+  balance_url: /v1/contas/fornecimento/saldos
+  extract_url: /v1/contas/fornecimento/extratos
