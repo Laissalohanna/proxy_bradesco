@@ -38,6 +38,6 @@ def generate_token_jwt(sub: str) -> Dict[str, str]:
 
     decoded_token = jwt.JWT(key=public_jwk, jwt=encoded_token)
     decoded_token.validate(public_jwk)
-    print(f"token: { encoded_token}")
+    # print(f"token: { encoded_token}")
 
     return {"token": encoded_token, "iat": iat}
