@@ -21,6 +21,7 @@ pre-commit==3.8.0
 pycodestyle==2.12.1
 pyflakes==3.2.0
 pylint==3.2.7
+python-dotenv==1.0.1
 PyYAML==6.0.2
 requests==2.32.3
 tomlkit==0.13.2
